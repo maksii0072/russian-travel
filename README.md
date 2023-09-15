@@ -17,4 +17,5 @@
 Картинки оптимизированы для более быстрой загрузки сайта.
 
 **GitHub-Pages**
+(https://maksii0072.github.io/russian-travel/)
 
