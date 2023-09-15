@@ -1,0 +1,19 @@
+.jorney__subtitle {
+  margin: 32px 0 0 0;
+  max-width: 360px;
+  text-align: center;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  position: relative;
+  z-index: 3;
+}
+
+@media screen and (max-width: 425px) {
+  .jorney__subtitle {
+    font-size: 14px;
+    line-height: 114%;
+    margin-top: 16px;
+  }
+}

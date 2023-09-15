@@ -1,0 +1,22 @@
+.lead__illustration {
+  margin: 64px auto 0 auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__illustration {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__illustration {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__illustration {
+    margin-top: 40px;
+  }
+}

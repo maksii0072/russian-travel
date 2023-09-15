@@ -1,0 +1,66 @@
+.jorney__background-link {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100%;
+  min-height: 740px;
+  width: 100%;
+  text-decoration: none;
+  color: #FFF;
+  position: relative;
+  background: url(../../../images/cover__background.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.jorney__background-link::before {
+  content: " ";
+  background: #2A2C2F;
+  opacity: .3;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.jorney__background-link:hover::before {
+  opacity: .8;
+  transition: 1s;
+}
+
+@media screen and (max-width: 1024px) {
+  .jorney__background-link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jorney__background-link {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .jorney__background-link {
+    min-height: 344px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jorney__background-link {
+    min-height: 266px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .jorney__background-link {
+    min-height: 200px;
+    max-width: 320px;
+  }
+}

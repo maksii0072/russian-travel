@@ -1,0 +1,32 @@
+.jorney {
+  box-sizing: border-box;
+  margin: 93px 0 0 0;
+  padding: 0 48px;
+  height: 100%;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .jorney {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jorney {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .jorney {
+    margin-top: 78px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .jorney {
+    margin: 66px 0 0 0;
+  }
+}
